@@ -40,7 +40,7 @@
   }
 
   .CodeMirror-gutters,
-  .windowLabelCont {
+  .panel>.windowLabelCont {
       background-color: #00425E;
   }
 
