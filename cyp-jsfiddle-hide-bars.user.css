@@ -1,0 +1,23 @@
+/* ==UserStyle==
+@name           CYP - JSFiddle Syntax Highlighting
+@namespace      github.com/kjdart
+@version        1.0.0
+@description    Hides the header and sidebar on JSFiddle to maximise the space for demos
+@author         Chua Kai Jun <chuakaijun@dart.com.sg>
+==/UserStyle== */
+@-moz-document domain("jsfiddle.net") {
+  #layout-container {
+      grid-template-columns: 100%;
+      grid-template-rows: 100%;
+      grid-template-areas: "content";
+  }
+
+  header {
+      display: none;
+  }
+
+  #editor .panel-v {
+      float: left;
+      height: 100vh;
+  }
+}

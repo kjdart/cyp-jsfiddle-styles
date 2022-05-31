@@ -1,0 +1,74 @@
+/* ==UserStyle==
+@name           CYP - JSFiddle Syntax Highlighting
+@namespace      github.com/kjdart
+@version        1.0.0
+@description    Syntax highlighting for JSFiddle that follows the CYP Sentinel Programme Slides
+@author         Chua Kai Jun <chuakaijun@dart.com.sg>
+==/UserStyle== */
+@-moz-document domain("jsfiddle.net") {
+  .cm-string {
+      color: #E6DB74 !important;
+  }
+
+  .cm-operator {
+      color: #b2fff9 !important;
+  }
+
+  .cm-def,
+  .cm-variable {
+      color: #F8F8F2 !important;
+  }
+
+  .cm-comment {
+      color: #E8CCC8 !important;
+  }
+
+  .cm-number {
+      color: #ffb4f7 !important;
+  }
+
+  .cm-keyword {
+      color: #b2fff9 !important;
+  }
+
+  .cm-property {
+      color: #A6E22E !important;
+  }
+
+  body {
+      background: #004865;
+  }
+
+  .CodeMirror-gutters,
+  .windowLabelCont {
+      background-color: #00425E;
+  }
+
+  .CodeMirror-linenumber {
+      color: inherit;
+  }
+
+  .CodeMirror-line {
+      font-family: 'Consolas', monospace !important;
+  }
+
+  span {
+      color: #F8F8F2;
+  }
+
+  .cm-tag {
+      color: #F8C1FF !important;
+  }
+
+  .cm-attribute {
+      color: #A6E22E !important;
+  }
+
+  .cm-bracket {
+      color: #F8F8F2 !important;
+  }
+
+  .CodeMirror-focused .CodeMirror-activeline-gutter .CodeMirror-linenumber {
+      color: #FFFFFF;
+  }
+}
