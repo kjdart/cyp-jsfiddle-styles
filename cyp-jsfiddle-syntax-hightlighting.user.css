@@ -6,7 +6,7 @@
 @author         Chua Kai Jun <chuakaijun@dart.com.sg>
 ==/UserStyle== */
 @-moz-document domain("jsfiddle.net") {
-  .cm-string {
+  .cm-string, .cm-string-2 {
       color: #E6DB74 !important;
   }
 
