@@ -29,6 +29,7 @@
 
   .cm-keyword {
       color: #b2fff9 !important;
+      font-style: italic;
   }
 
   .cm-property {
